@@ -26,14 +26,14 @@ export default function PickupRentalLanding() {
         <div
           className="absolute inset-0 bg-gradient-to-br from-blue-900/90 via-blue-800/80 to-transparent z-10"
           style={{
-            backgroundImage: `url('/2024-pickup-construction.png')`,
+            backgroundImage: `url('/banner-modelos-L200.jpg')`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
         />
 
         <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
-          <div className="space-y-8">
+          <div className="space-y-8 bg-black/50 p-8 rounded-lg">
             <h1 className="font-serif text-5xl md:text-7xl font-bold leading-tight">
               Poder. Confiabilidad.
               <span className="block text-amber-400">Donde lo Necesites.</span>
@@ -185,7 +185,7 @@ export default function PickupRentalLanding() {
               >
                 <div className="relative">
                   <img
-                    src={`/abstract-geometric-shapes.png?height=300&width=400&query=${truck.image}`}
+                    src="/abstract-geometric-shapes.png"
                     alt={truck.name}
                     className="w-full h-48 object-cover"
                   />
@@ -383,7 +383,7 @@ export default function PickupRentalLanding() {
                   <p className="text-slate-600 italic">"{review.review}"</p>
                   <div className="flex items-center gap-3">
                     <img
-                      src={`/abstract-geometric-shapes.png?height=50&width=50&query=${review.image}`}
+                      src="/abstract-geometric-shapes.png"
                       alt={review.name}
                       className="w-12 h-12 rounded-full object-cover"
                     />
@@ -451,11 +451,11 @@ export default function PickupRentalLanding() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-slate-800 text-white py-12">
+      <footer className="bg-black text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div className="space-y-4">
-              <h3 className="font-serif text-2xl font-bold">RentaPickup</h3>
+              <h3 className="font-serif text-2xl font-bold">Servicios Shaddai</h3>
               <p className="text-slate-300">Tu socio confiable para renta de pickups premium 2024-2025.</p>
             </div>
 
@@ -498,7 +498,7 @@ export default function PickupRentalLanding() {
           </div>
 
           <div className="border-t border-slate-700 mt-8 pt-8 text-center text-slate-400">
-            <p>&copy; 2024 RentaPickup. Todos los derechos reservados.</p>
+            <p>&copy; 2025 Servicios Shaddai. Todos los derechos reservados.</p>
           </div>
         </div>
       </footer>
